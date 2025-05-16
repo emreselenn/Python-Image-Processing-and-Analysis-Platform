@@ -1,14 +1,31 @@
-# Auto detect text files and perform LF normalization
+# Satır sonu normalizasyonu
 * text=auto
 
-# Exclude non-code files from GitHub language stats
+# GitHub linguist dil analizinden hariç tutulacak dosya türleri
 *.png linguist-detectable=false
 *.jpg linguist-detectable=false
 *.jpeg linguist-detectable=false
 *.gif linguist-detectable=false
-*.ps linguist-detectable=false
-*.tex linguist-detectable=false
+*.svg linguist-detectable=false
+*.ico linguist-detectable=false
+
 *.pdf linguist-detectable=false
+*.tex linguist-detectable=false
+*.ps linguist-detectable=false
+*.eps linguist-detectable=false
+
 *.html linguist-detectable=false
 *.css linguist-detectable=false
+*.js linguist-detectable=false
+*.ts linguist-detectable=false
 
+*.json linguist-detectable=false
+*.xml linguist-detectable=false
+*.yml linguist-detectable=false
+*.yaml linguist-detectable=false
+
+# Geçici veya dış veri dosyaları
+*.csv linguist-detectable=false
+*.xlsx linguist-detectable=false
+*.xls linguist-detectable=false
+*.md linguist-detectable=false
