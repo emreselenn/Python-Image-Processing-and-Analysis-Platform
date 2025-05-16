@@ -12,8 +12,6 @@
 *.pdf linguist-detectable=false
 *.ps linguist-detectable=false
 *.eps linguist-detectable=false
-*.tex linguist-detectable=false
-**/*.tex linguist-detectable=false
 
 *.html linguist-detectable=false
 *.css linguist-detectable=false
@@ -31,3 +29,8 @@
 *.xls linguist-detectable=false
 *.docx linguist-detectable=false
 *.doc linguist-detectable=false
+
+# TeX override (kill it with fire 🔥)
+*.tex linguist-language=Text
+*.tex linguist-detectable=false
+**/*.tex linguist-detectable=false
