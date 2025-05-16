@@ -1,2 +1,14 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+# Exclude non-code files from GitHub language stats
+*.png linguist-detectable=false
+*.jpg linguist-detectable=false
+*.jpeg linguist-detectable=false
+*.gif linguist-detectable=false
+*.ps linguist-detectable=false
+*.tex linguist-detectable=false
+*.pdf linguist-detectable=false
+*.html linguist-detectable=false
+*.css linguist-detectable=false
+
