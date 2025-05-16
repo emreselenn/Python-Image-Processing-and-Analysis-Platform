@@ -1,0 +1,76 @@
+\doxysection{commands.\+Clear\+Source\+Command Class Reference}
+\hypertarget{classcommands_1_1_clear_source_command}{}\label{classcommands_1_1_clear_source_command}\index{commands.ClearSourceCommand@{commands.ClearSourceCommand}}
+Inheritance diagram for commands.\+Clear\+Source\+Command\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{classcommands_1_1_clear_source_command}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classcommands_1_1_clear_source_command_ab7936db56c3c0611bdce68422edeb642}{\+\_\+\+\_\+init\+\_\+\+\_\+}} (self, ctrl)
+\item 
+\mbox{\hyperlink{classcommands_1_1_clear_source_command_a36051c6140e7eaf56e1f881a2218ad67}{execute}} (self)
+\item 
+\mbox{\hyperlink{classcommands_1_1_clear_source_command_ae8fe4ff2de53a0cf25ad41fa679811ac}{undo}} (self)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{classcommands_1_1_clear_source_command_a37a40dc4438853365282a5cd0a1a273c}\label{classcommands_1_1_clear_source_command_a37a40dc4438853365282a5cd0a1a273c} 
+{\bfseries ctrl} = ctrl
+\item 
+\Hypertarget{classcommands_1_1_clear_source_command_a48731dde1fa1aeb8bc81461a983e127f}\label{classcommands_1_1_clear_source_command_a48731dde1fa1aeb8bc81461a983e127f} 
+{\bfseries prev\+\_\+src} = ctrl.\+img\+\_\+source
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\begin{DoxyVerb}@brief Command to clear the source image.
+\end{DoxyVerb}
+ 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{classcommands_1_1_clear_source_command_ab7936db56c3c0611bdce68422edeb642}\index{commands.ClearSourceCommand@{commands.ClearSourceCommand}!\_\_init\_\_@{\_\_init\_\_}}
+\index{\_\_init\_\_@{\_\_init\_\_}!commands.ClearSourceCommand@{commands.ClearSourceCommand}}
+\doxysubsubsection{\texorpdfstring{\_\_init\_\_()}{\_\_init\_\_()}}
+{\footnotesize\ttfamily \label{classcommands_1_1_clear_source_command_ab7936db56c3c0611bdce68422edeb642} 
+commands.\+Clear\+Source\+Command.\+\_\+\+\_\+init\+\_\+\+\_\+ (\begin{DoxyParamCaption}\item[{}]{self}{, }\item[{}]{ctrl}{}\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}@brief Initializes the command to clear the source image.
+
+@param ctrl: The controller with the image source to be cleared.
+\end{DoxyVerb}
+ 
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classcommands_1_1_clear_source_command_a36051c6140e7eaf56e1f881a2218ad67}\index{commands.ClearSourceCommand@{commands.ClearSourceCommand}!execute@{execute}}
+\index{execute@{execute}!commands.ClearSourceCommand@{commands.ClearSourceCommand}}
+\doxysubsubsection{\texorpdfstring{execute()}{execute()}}
+{\footnotesize\ttfamily \label{classcommands_1_1_clear_source_command_a36051c6140e7eaf56e1f881a2218ad67} 
+commands.\+Clear\+Source\+Command.\+execute (\begin{DoxyParamCaption}\item[{}]{self}{}\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}@brief Clears the source image.
+\end{DoxyVerb}
+ 
+
+Reimplemented from \mbox{\hyperlink{classcommands_1_1_i_command_a3eb794a37434ca8726e49f38c2c50995}{commands.\+ICommand}}.
+
+\Hypertarget{classcommands_1_1_clear_source_command_ae8fe4ff2de53a0cf25ad41fa679811ac}\index{commands.ClearSourceCommand@{commands.ClearSourceCommand}!undo@{undo}}
+\index{undo@{undo}!commands.ClearSourceCommand@{commands.ClearSourceCommand}}
+\doxysubsubsection{\texorpdfstring{undo()}{undo()}}
+{\footnotesize\ttfamily \label{classcommands_1_1_clear_source_command_ae8fe4ff2de53a0cf25ad41fa679811ac} 
+commands.\+Clear\+Source\+Command.\+undo (\begin{DoxyParamCaption}\item[{}]{self}{}\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}@brief Restores the previous source image.
+\end{DoxyVerb}
+ 
+
+Reimplemented from \mbox{\hyperlink{classcommands_1_1_i_command_aaed0cdc9cb42f3bff7dc81a333a9e5e7}{commands.\+ICommand}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+commands.\+py\end{DoxyCompactItemize}

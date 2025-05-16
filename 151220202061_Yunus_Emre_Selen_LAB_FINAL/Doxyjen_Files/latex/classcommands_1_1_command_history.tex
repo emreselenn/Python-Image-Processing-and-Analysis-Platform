@@ -1,0 +1,74 @@
+\doxysection{commands.\+Command\+History Class Reference}
+\hypertarget{classcommands_1_1_command_history}{}\label{classcommands_1_1_command_history}\index{commands.CommandHistory@{commands.CommandHistory}}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classcommands_1_1_command_history_afb06b6188583e810b6eb33facbff2f6d}{\+\_\+\+\_\+init\+\_\+\+\_\+}} (self)
+\item 
+\mbox{\hyperlink{classcommands_1_1_command_history_abf3dd467a7ee40d17be08cb780e54f01}{push}} (self, \mbox{\hyperlink{classcommands_1_1_i_command}{ICommand}} cmd)
+\item 
+\mbox{\hyperlink{classcommands_1_1_command_history_a94813be2bef5fd06e39839e822b229fe}{undo}} (self)
+\item 
+\mbox{\hyperlink{classcommands_1_1_command_history_a4f33be629977ba0d798d9433cd99f9d3}{redo}} (self)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{classcommands_1_1_command_history_aee1e23b20fa2215e18a61ae2b53ec069}\label{classcommands_1_1_command_history_aee1e23b20fa2215e18a61ae2b53ec069} 
+list {\bfseries \+\_\+undo\+\_\+stack} = \mbox{[}$\,$\mbox{]}
+\item 
+\Hypertarget{classcommands_1_1_command_history_a1c10646507cd3c3e95cc4413f573f749}\label{classcommands_1_1_command_history_a1c10646507cd3c3e95cc4413f573f749} 
+list {\bfseries \+\_\+redo\+\_\+stack} = \mbox{[}$\,$\mbox{]}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\begin{DoxyVerb}@brief Maintains history of commands for undo and redo operations.
+
+This class stores the stack of executed commands and supports undo/redo operations.
+\end{DoxyVerb}
+ 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{classcommands_1_1_command_history_afb06b6188583e810b6eb33facbff2f6d}\index{commands.CommandHistory@{commands.CommandHistory}!\_\_init\_\_@{\_\_init\_\_}}
+\index{\_\_init\_\_@{\_\_init\_\_}!commands.CommandHistory@{commands.CommandHistory}}
+\doxysubsubsection{\texorpdfstring{\_\_init\_\_()}{\_\_init\_\_()}}
+{\footnotesize\ttfamily \label{classcommands_1_1_command_history_afb06b6188583e810b6eb33facbff2f6d} 
+commands.\+Command\+History.\+\_\+\+\_\+init\+\_\+\+\_\+ (\begin{DoxyParamCaption}\item[{}]{self}{}\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}@brief Initializes the command history with empty stacks.
+\end{DoxyVerb}
+ 
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classcommands_1_1_command_history_abf3dd467a7ee40d17be08cb780e54f01}\index{commands.CommandHistory@{commands.CommandHistory}!push@{push}}
+\index{push@{push}!commands.CommandHistory@{commands.CommandHistory}}
+\doxysubsubsection{\texorpdfstring{push()}{push()}}
+{\footnotesize\ttfamily \label{classcommands_1_1_command_history_abf3dd467a7ee40d17be08cb780e54f01} 
+commands.\+Command\+History.\+push (\begin{DoxyParamCaption}\item[{}]{self}{, }\item[{\mbox{\hyperlink{classcommands_1_1_i_command}{ICommand}}}]{cmd}{}\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}@brief Pushes a command to the undo stack and clears the redo stack.
+
+@param cmd: The command to be pushed to history.
+\end{DoxyVerb}
+ \Hypertarget{classcommands_1_1_command_history_a4f33be629977ba0d798d9433cd99f9d3}\index{commands.CommandHistory@{commands.CommandHistory}!redo@{redo}}
+\index{redo@{redo}!commands.CommandHistory@{commands.CommandHistory}}
+\doxysubsubsection{\texorpdfstring{redo()}{redo()}}
+{\footnotesize\ttfamily \label{classcommands_1_1_command_history_a4f33be629977ba0d798d9433cd99f9d3} 
+commands.\+Command\+History.\+redo (\begin{DoxyParamCaption}\item[{}]{self}{}\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}@brief Redoes the last undone command, if available.
+\end{DoxyVerb}
+ \Hypertarget{classcommands_1_1_command_history_a94813be2bef5fd06e39839e822b229fe}\index{commands.CommandHistory@{commands.CommandHistory}!undo@{undo}}
+\index{undo@{undo}!commands.CommandHistory@{commands.CommandHistory}}
+\doxysubsubsection{\texorpdfstring{undo()}{undo()}}
+{\footnotesize\ttfamily \label{classcommands_1_1_command_history_a94813be2bef5fd06e39839e822b229fe} 
+commands.\+Command\+History.\+undo (\begin{DoxyParamCaption}\item[{}]{self}{}\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}@brief Undoes the last executed command, if available.
+\end{DoxyVerb}
+ 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+commands.\+py\end{DoxyCompactItemize}

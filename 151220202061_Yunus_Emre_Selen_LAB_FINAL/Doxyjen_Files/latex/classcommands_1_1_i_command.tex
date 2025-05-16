@@ -1,0 +1,59 @@
+\doxysection{commands.\+ICommand Class Reference}
+\hypertarget{classcommands_1_1_i_command}{}\label{classcommands_1_1_i_command}\index{commands.ICommand@{commands.ICommand}}
+Inheritance diagram for commands.\+ICommand\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=10.370370cm]{classcommands_1_1_i_command}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classcommands_1_1_i_command_a3eb794a37434ca8726e49f38c2c50995}{execute}} (self)
+\item 
+\mbox{\hyperlink{classcommands_1_1_i_command_aaed0cdc9cb42f3bff7dc81a333a9e5e7}{undo}} (self)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\begin{DoxyVerb}@brief Abstract base class for command pattern implementation.
+
+This class defines the interface for all concrete commands to implement 
+the execute and undo operations.
+\end{DoxyVerb}
+ 
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classcommands_1_1_i_command_a3eb794a37434ca8726e49f38c2c50995}\index{commands.ICommand@{commands.ICommand}!execute@{execute}}
+\index{execute@{execute}!commands.ICommand@{commands.ICommand}}
+\doxysubsubsection{\texorpdfstring{execute()}{execute()}}
+{\footnotesize\ttfamily \label{classcommands_1_1_i_command_a3eb794a37434ca8726e49f38c2c50995} 
+commands.\+ICommand.\+execute (\begin{DoxyParamCaption}\item[{}]{self}{}\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}@brief Execute the command.
+
+This method is implemented by subclasses to execute the command.
+\end{DoxyVerb}
+ 
+
+Reimplemented in \mbox{\hyperlink{classcommands_1_1_chan_vese_command_a546d2af71bb0d0ac289ee64382156a9b}{commands.\+Chan\+Vese\+Command}}, \mbox{\hyperlink{classcommands_1_1_clear_output_command_ae07a91fab9fcbbb720fd18c44c166adb}{commands.\+Clear\+Output\+Command}}, \mbox{\hyperlink{classcommands_1_1_clear_source_command_a36051c6140e7eaf56e1f881a2218ad67}{commands.\+Clear\+Source\+Command}}, \mbox{\hyperlink{classcommands_1_1_grayscale_command_a4ac9eca4fed5b9b6f0b3e217deb96b27}{commands.\+Grayscale\+Command}}, \mbox{\hyperlink{classcommands_1_1_hsv_command_a24a6ed4ffa73694097b87b0f8d072901}{commands.\+Hsv\+Command}}, \mbox{\hyperlink{classcommands_1_1_morph_snakes_command_aae108681260d4ae8147bcaaf798e8505}{commands.\+Morph\+Snakes\+Command}}, \mbox{\hyperlink{classcommands_1_1_multi_otsu_command_a255db70100e7b6f25902cb997365f0b7}{commands.\+Multi\+Otsu\+Command}}, \mbox{\hyperlink{classcommands_1_1_prewitt_command_a5fee4765cd943c744911bce0885f3615}{commands.\+Prewitt\+Command}}, \mbox{\hyperlink{classcommands_1_1_roberts_command_a38bc76f99732f896c5efe81573de03cf}{commands.\+Roberts\+Command}}, \mbox{\hyperlink{classcommands_1_1_scharr_command_a5b47937ff1b0f753adf9624debcf39f6}{commands.\+Scharr\+Command}}, and \mbox{\hyperlink{classcommands_1_1_sobel_command_a8586740a7f9a7ef8f87f8eba9b41af7d}{commands.\+Sobel\+Command}}.
+
+\Hypertarget{classcommands_1_1_i_command_aaed0cdc9cb42f3bff7dc81a333a9e5e7}\index{commands.ICommand@{commands.ICommand}!undo@{undo}}
+\index{undo@{undo}!commands.ICommand@{commands.ICommand}}
+\doxysubsubsection{\texorpdfstring{undo()}{undo()}}
+{\footnotesize\ttfamily \label{classcommands_1_1_i_command_aaed0cdc9cb42f3bff7dc81a333a9e5e7} 
+commands.\+ICommand.\+undo (\begin{DoxyParamCaption}\item[{}]{self}{}\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}@brief Undo the command.
+
+This method is implemented by subclasses to undo the command.
+\end{DoxyVerb}
+ 
+
+Reimplemented in \mbox{\hyperlink{classcommands_1_1_base_image_command_a2f7f73ab5437cc4647f4a238aaf84512}{commands.\+Base\+Image\+Command}}, \mbox{\hyperlink{classcommands_1_1_clear_output_command_a348fec4d326271cf10429ea7d29a7383}{commands.\+Clear\+Output\+Command}}, and \mbox{\hyperlink{classcommands_1_1_clear_source_command_ae8fe4ff2de53a0cf25ad41fa679811ac}{commands.\+Clear\+Source\+Command}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+commands.\+py\end{DoxyCompactItemize}

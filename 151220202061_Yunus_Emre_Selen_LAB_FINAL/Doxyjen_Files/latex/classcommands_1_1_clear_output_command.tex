@@ -1,0 +1,73 @@
+\doxysection{commands.\+Clear\+Output\+Command Class Reference}
+\hypertarget{classcommands_1_1_clear_output_command}{}\label{classcommands_1_1_clear_output_command}\index{commands.ClearOutputCommand@{commands.ClearOutputCommand}}
+Inheritance diagram for commands.\+Clear\+Output\+Command\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{classcommands_1_1_clear_output_command}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classcommands_1_1_clear_output_command_a7d4935cca0fc3ef38ff0f39145300e1e}{\+\_\+\+\_\+init\+\_\+\+\_\+}} (self, ctrl)
+\item 
+\mbox{\hyperlink{classcommands_1_1_clear_output_command_ae07a91fab9fcbbb720fd18c44c166adb}{execute}} (self)
+\item 
+\mbox{\hyperlink{classcommands_1_1_clear_output_command_a348fec4d326271cf10429ea7d29a7383}{undo}} (self)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{classcommands_1_1_clear_output_command_ad9a807548edb83465be1942f25ee50a2}\label{classcommands_1_1_clear_output_command_ad9a807548edb83465be1942f25ee50a2} 
+{\bfseries ctrl} = ctrl
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\begin{DoxyVerb}@brief Command to clear the output image.
+\end{DoxyVerb}
+ 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{classcommands_1_1_clear_output_command_a7d4935cca0fc3ef38ff0f39145300e1e}\index{commands.ClearOutputCommand@{commands.ClearOutputCommand}!\_\_init\_\_@{\_\_init\_\_}}
+\index{\_\_init\_\_@{\_\_init\_\_}!commands.ClearOutputCommand@{commands.ClearOutputCommand}}
+\doxysubsubsection{\texorpdfstring{\_\_init\_\_()}{\_\_init\_\_()}}
+{\footnotesize\ttfamily \label{classcommands_1_1_clear_output_command_a7d4935cca0fc3ef38ff0f39145300e1e} 
+commands.\+Clear\+Output\+Command.\+\_\+\+\_\+init\+\_\+\+\_\+ (\begin{DoxyParamCaption}\item[{}]{self}{, }\item[{}]{ctrl}{}\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}@brief Initializes the command to clear the output image.
+
+@param ctrl: The controller with the output image to be cleared.
+\end{DoxyVerb}
+ 
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classcommands_1_1_clear_output_command_ae07a91fab9fcbbb720fd18c44c166adb}\index{commands.ClearOutputCommand@{commands.ClearOutputCommand}!execute@{execute}}
+\index{execute@{execute}!commands.ClearOutputCommand@{commands.ClearOutputCommand}}
+\doxysubsubsection{\texorpdfstring{execute()}{execute()}}
+{\footnotesize\ttfamily \label{classcommands_1_1_clear_output_command_ae07a91fab9fcbbb720fd18c44c166adb} 
+commands.\+Clear\+Output\+Command.\+execute (\begin{DoxyParamCaption}\item[{}]{self}{}\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}@brief Clears the output image.
+\end{DoxyVerb}
+ 
+
+Reimplemented from \mbox{\hyperlink{classcommands_1_1_i_command_a3eb794a37434ca8726e49f38c2c50995}{commands.\+ICommand}}.
+
+\Hypertarget{classcommands_1_1_clear_output_command_a348fec4d326271cf10429ea7d29a7383}\index{commands.ClearOutputCommand@{commands.ClearOutputCommand}!undo@{undo}}
+\index{undo@{undo}!commands.ClearOutputCommand@{commands.ClearOutputCommand}}
+\doxysubsubsection{\texorpdfstring{undo()}{undo()}}
+{\footnotesize\ttfamily \label{classcommands_1_1_clear_output_command_a348fec4d326271cf10429ea7d29a7383} 
+commands.\+Clear\+Output\+Command.\+undo (\begin{DoxyParamCaption}\item[{}]{self}{}\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}@brief No operation for undo since output can’t be restored.
+\end{DoxyVerb}
+ 
+
+Reimplemented from \mbox{\hyperlink{classcommands_1_1_i_command_aaed0cdc9cb42f3bff7dc81a333a9e5e7}{commands.\+ICommand}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+commands.\+py\end{DoxyCompactItemize}

@@ -1,0 +1,46 @@
+\doxysection{processing.\+Multi\+Otsu\+Processor Class Reference}
+\hypertarget{classprocessing_1_1_multi_otsu_processor}{}\label{classprocessing_1_1_multi_otsu_processor}\index{processing.MultiOtsuProcessor@{processing.MultiOtsuProcessor}}
+Inheritance diagram for processing.\+Multi\+Otsu\+Processor\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classprocessing_1_1_multi_otsu_processor}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classprocessing_1_1_multi_otsu_processor_ac6a557b95b8f4c34fae5df9c9ea82148}{process}} (self, image)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\begin{DoxyVerb}@brief Performs Multi-Otsu thresholding for segmentation.
+
+This processor segments an image into multiple regions using the Multi-Otsu method.
+\end{DoxyVerb}
+ 
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classprocessing_1_1_multi_otsu_processor_ac6a557b95b8f4c34fae5df9c9ea82148}\index{processing.MultiOtsuProcessor@{processing.MultiOtsuProcessor}!process@{process}}
+\index{process@{process}!processing.MultiOtsuProcessor@{processing.MultiOtsuProcessor}}
+\doxysubsubsection{\texorpdfstring{process()}{process()}}
+{\footnotesize\ttfamily \label{classprocessing_1_1_multi_otsu_processor_ac6a557b95b8f4c34fae5df9c9ea82148} 
+processing.\+Multi\+Otsu\+Processor.\+process (\begin{DoxyParamCaption}\item[{}]{self}{, }\item[{}]{image}{}\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}@brief Segments the image using Multi-Otsu thresholding.
+
+This method converts the image to grayscale and applies Multi-Otsu thresholding
+to segment the image into 3 regions.
+
+@param image: The input image.
+@return: The segmented image.
+\end{DoxyVerb}
+ 
+
+Reimplemented from \mbox{\hyperlink{classprocessing_1_1_image_processor_a509da63d6bb604d867682392c773cb46}{processing.\+Image\+Processor}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+processing.\+py\end{DoxyCompactItemize}

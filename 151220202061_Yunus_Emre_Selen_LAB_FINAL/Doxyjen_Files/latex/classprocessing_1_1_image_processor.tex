@@ -1,0 +1,46 @@
+\doxysection{processing.\+Image\+Processor Class Reference}
+\hypertarget{classprocessing_1_1_image_processor}{}\label{classprocessing_1_1_image_processor}\index{processing.ImageProcessor@{processing.ImageProcessor}}
+Inheritance diagram for processing.\+Image\+Processor\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=10.000000cm]{classprocessing_1_1_image_processor}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+np.\+ndarray \mbox{\hyperlink{classprocessing_1_1_image_processor_a509da63d6bb604d867682392c773cb46}{process}} (self, np.\+ndarray image)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\begin{DoxyVerb}@brief Abstract base class for image processing tasks.
+
+This class defines the common interface for all image processing operations.
+\end{DoxyVerb}
+ 
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classprocessing_1_1_image_processor_a509da63d6bb604d867682392c773cb46}\index{processing.ImageProcessor@{processing.ImageProcessor}!process@{process}}
+\index{process@{process}!processing.ImageProcessor@{processing.ImageProcessor}}
+\doxysubsubsection{\texorpdfstring{process()}{process()}}
+{\footnotesize\ttfamily \label{classprocessing_1_1_image_processor_a509da63d6bb604d867682392c773cb46} 
+ np.\+ndarray processing.\+Image\+Processor.\+process (\begin{DoxyParamCaption}\item[{}]{self}{, }\item[{np.\+ndarray}]{image}{}\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}@brief Processes an image.
+
+This method is abstract and must be implemented by subclasses to process
+the image according to the desired functionality.
+
+@param image: The input image to be processed.
+@return: The processed image.
+\end{DoxyVerb}
+ 
+
+Reimplemented in \mbox{\hyperlink{classprocessing_1_1_chan_vese_processor_a2ca8c04792179900cf6e4bcf147fa28b}{processing.\+Chan\+Vese\+Processor}}, \mbox{\hyperlink{classprocessing_1_1_morph_snakes_processor_a66561699259bdf4a2f11e5b1242fd448}{processing.\+Morph\+Snakes\+Processor}}, \mbox{\hyperlink{classprocessing_1_1_multi_otsu_processor_ac6a557b95b8f4c34fae5df9c9ea82148}{processing.\+Multi\+Otsu\+Processor}}, \mbox{\hyperlink{classprocessing_1_1_prewitt_processor_a04ee6c5d27497a23ff9e6c6ea05dd05b}{processing.\+Prewitt\+Processor}}, \mbox{\hyperlink{classprocessing_1_1_rgb2_gray_processor_a62979413da58e5c087c9c0337ce6136b}{processing.\+Rgb2\+Gray\+Processor}}, \mbox{\hyperlink{classprocessing_1_1_rgb2_hsv_processor_a971f98ad410fec03d6b1b82a889f4392}{processing.\+Rgb2\+Hsv\+Processor}}, \mbox{\hyperlink{classprocessing_1_1_roberts_processor_a00f41e8cfac59640e29534911d362ee4}{processing.\+Roberts\+Processor}}, \mbox{\hyperlink{classprocessing_1_1_scharr_processor_acfd9e603a4d3b71f5666b6c25203f47c}{processing.\+Scharr\+Processor}}, and \mbox{\hyperlink{classprocessing_1_1_sobel_processor_a2616ab6fd396c802c289169555718f9c}{processing.\+Sobel\+Processor}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+processing.\+py\end{DoxyCompactItemize}

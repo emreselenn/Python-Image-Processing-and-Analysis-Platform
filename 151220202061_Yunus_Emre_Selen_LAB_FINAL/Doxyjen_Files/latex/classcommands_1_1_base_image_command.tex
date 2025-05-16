@@ -1,0 +1,70 @@
+\doxysection{commands.\+Base\+Image\+Command Class Reference}
+\hypertarget{classcommands_1_1_base_image_command}{}\label{classcommands_1_1_base_image_command}\index{commands.BaseImageCommand@{commands.BaseImageCommand}}
+Inheritance diagram for commands.\+Base\+Image\+Command\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=12.000000cm]{classcommands_1_1_base_image_command}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classcommands_1_1_base_image_command_ac52d798fabcf9a711a82d9caacd68e8e}{\+\_\+\+\_\+init\+\_\+\+\_\+}} (self, ctrl)
+\item 
+\mbox{\hyperlink{classcommands_1_1_base_image_command_a2f7f73ab5437cc4647f4a238aaf84512}{undo}} (self)
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions inherited from \mbox{\hyperlink{classcommands_1_1_i_command}{commands.\+ICommand}}}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classcommands_1_1_i_command_a3eb794a37434ca8726e49f38c2c50995}{execute}} (self)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{classcommands_1_1_base_image_command_a045951c3b7aaf5cd12b01a78f97f6c7c}\label{classcommands_1_1_base_image_command_a045951c3b7aaf5cd12b01a78f97f6c7c} 
+{\bfseries ctrl} = ctrl
+\item 
+\Hypertarget{classcommands_1_1_base_image_command_a3f1a6c52656e9011bcedfd53b690512e}\label{classcommands_1_1_base_image_command_a3f1a6c52656e9011bcedfd53b690512e} 
+{\bfseries prev} = ctrl.\+img\+\_\+output.\+copy() if ctrl.\+img\+\_\+output is not None else None
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\begin{DoxyVerb}@brief Base class for image processing commands.
+
+This command operates on images and supports undo functionality by storing 
+the previous image state.
+\end{DoxyVerb}
+ 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{classcommands_1_1_base_image_command_ac52d798fabcf9a711a82d9caacd68e8e}\index{commands.BaseImageCommand@{commands.BaseImageCommand}!\_\_init\_\_@{\_\_init\_\_}}
+\index{\_\_init\_\_@{\_\_init\_\_}!commands.BaseImageCommand@{commands.BaseImageCommand}}
+\doxysubsubsection{\texorpdfstring{\_\_init\_\_()}{\_\_init\_\_()}}
+{\footnotesize\ttfamily \label{classcommands_1_1_base_image_command_ac52d798fabcf9a711a82d9caacd68e8e} 
+commands.\+Base\+Image\+Command.\+\_\+\+\_\+init\+\_\+\+\_\+ (\begin{DoxyParamCaption}\item[{}]{self}{, }\item[{}]{ctrl}{}\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}@brief Initializes the BaseImageCommand with a controller.
+
+@param ctrl: The controller that holds the source and output images.
+\end{DoxyVerb}
+ 
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classcommands_1_1_base_image_command_a2f7f73ab5437cc4647f4a238aaf84512}\index{commands.BaseImageCommand@{commands.BaseImageCommand}!undo@{undo}}
+\index{undo@{undo}!commands.BaseImageCommand@{commands.BaseImageCommand}}
+\doxysubsubsection{\texorpdfstring{undo()}{undo()}}
+{\footnotesize\ttfamily \label{classcommands_1_1_base_image_command_a2f7f73ab5437cc4647f4a238aaf84512} 
+commands.\+Base\+Image\+Command.\+undo (\begin{DoxyParamCaption}\item[{}]{self}{}\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}@brief Restores the previous image state.
+\end{DoxyVerb}
+ 
+
+Reimplemented from \mbox{\hyperlink{classcommands_1_1_i_command_aaed0cdc9cb42f3bff7dc81a333a9e5e7}{commands.\+ICommand}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+commands.\+py\end{DoxyCompactItemize}
